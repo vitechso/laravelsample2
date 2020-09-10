@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+span.navbar-toggler-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top-link {
+    box-shadow: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px 20px 0px;
+}
+
+
+.get-link-block {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    background: transparent !important;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    box-shadow: 0 0 5px #eee;
+    height: 80px;
+}
+
+ul.top-nav {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul.top-nav li {
+    margin-left: 25px;
+}
+
+ul.top-nav li a {
+    color: #333;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    padding: 0 !important;
+}
+
+ul.top-nav li a:hover {
+    color: #F7931A;
+}
+
+.Brand-logo img {
+    width: 132px;
+}
+
+
+.vertical-middle {
+    align-items: center;
+    height: calc(100vh - 80px);
+}
+
+.get-search {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.bar {
+    margin:0 auto;
+    width:575px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+
+h1.title-logo {
+   color: #333;
+    margin: 0;
+    font-size: 34px;
+}
+
+span.title-effect {
+    color: #F7931A;
+}
+
+.bar .search-icon {
+    position: absolute;
+    left: 25px;
+    transform: translateY(-50%);
+    top: 50%;
+    color: #888;
+}
+
+.searchbar {
+    height:45px;
+    width: 575px;
+    font-size:16px;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    transition: all 0.2s ease-in-out;
+    padding-left: 55px;
+}
+
+.searchbar::placeholder {
+    color: #a7a7a7;
+    font-weight: 300;
+}
+
+.buttons {
+    margin: 25px 0px 15px;
+}
+
+.button {
+    background-color: #f5f5f5;
+    border:none;
+    color:#707070;
+    font-size:15px;
+    padding: 10px 20px;
+    margin:5px;
+    border-radius:4px;
+    outline:none;
+    font-weight: 500;
+}
+
+.button:hover {
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color:#808080;
+}
+
+.button:focus {
+    border:1px solid #4885ed;
+    padding: 9px 19px;
+}
+
+.get-search p {
+    font-size: 14px;
+    margin: 0;
+    color: #F7931A;
+}
+
+
+/*beginner page*/
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.search-block input {
+    border: 0;
+    width: 100%;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding-left: 45px;
+    font-size: 14px;
+}
+
+.search-block {
+    position: relative;
+    width: 300px;
+}
+
+.search-block i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    color: #888;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #f7931a !important;
+    outline: 0;
+    box-shadow: 0 0 5px 0.1rem #f7931a3b !important;
+}
+
+input::placeholder {
+    color: #a7a7a7;
+    font-weight: 300;
+}
+
+h1.search-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.bnner-bg {
+    background-image: url(../img/bg-img.png);
+    padding: 40px;
+    position: relative;
+}
+
+section.bnner-bg:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #eeeeeeed;
+    top: 0;
+    left: 0;
+}
+
+.branded-content h1 {
+    color: #333;
+    font-size: 34px;
+    margin: 0;
+}
+
+.branded-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+/*Acordian css*/
+
+.card-header {
+    padding: 0;
+}
+
+.card-header button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 12px 20px;
+    color: #333;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card>.card-header button:hover {
+    color: #F7931A;
+}
+
+.card>.card-header button:after {
+  content: "";
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: FontAwesome;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  float: right;
+  transition: transform .25s linear;
+  -webkit-transition: -webkit-transform .25s linear;
+}
+
+
+.card>.card-header button[aria-expanded="true"] {
+    background-color: #eee;
+    color: #F7931A;
+}
+
+.card>.card-header button[aria-expanded="true"]:after {
+  content: "\f107";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  color: #F7931A;
+}
+
+.card>.card-header button[aria-expanded="false"]:after {
+  content: "\f107";
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+/*Acordian css end*/
+
+.social-propery {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social-propery ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.social-propery ul li {
+    margin-right: 15px;
+}
+
+.social-propery ul li a {
+    display: flex;
+    align-items: center;
+    color: #555;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-propery ul li a:hover,
+.social-propery ul li a:hover i {
+    color: #F7931A;
+}
+
+
+.social-propery ul li a i {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #888;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-propery ul li a span {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.social-propery ul li a p {
+    margin: 0px;
+    font-size: 14px;
+}
+
+
+.vote-update {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    border: 1px solid #F7931A;
+    border-radius: 3px;
+    width: max-content;
+}
+
+.vote-update button {
+    border: 0;
+    background: transparent;
+    outline: none !important;
+}
+
+.vote-update p {
+    margin: 0 5px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+}
+
+.vote-update svg {
+    width: 14px;
+    transition: all 0.2s ease-in-out;
+}
+
+.vote-update svg path {
+    transition: all 0.2s ease-in-out;
+}
+
+.vote-update button:hover svg g path {
+    fill: #F7931A;
+}
+
+.down-vote {
+    position: relative;
+    top: 1px;
+}
+
+/*beginner page*/
+
+/*Login page css*/
+
+.login-block {
+    padding: 20px 20px 0px;
+    position: relative;
+}
+
+.login-block:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    bottom: 0;
+    left: 0;
+    background: #f7931a;
+    box-shadow: 0 10px 20px -10px #ccc;
+}
+
+.inner-login-block {
+    padding: 50px 50px 30px;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 15px 20px -15px #965201;
+}
+
+.login-block input {
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-title h2 {
+    color: #f7931a;
+    font-size: 24px;
+}
+
+.form-title p {
+    color: #777;
+    font-size: 14px;
+}
+
+.login-block label {
+    font-size: 14px;
+    color: #777;
+}
+
+.login-block label span {
+    position: relative;
+    top: 2px;
+}
+
+.custom-control-input:focus:not(:checked)~.custom-control-label::before {
+    border-color: #f7931a !important;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+    box-shadow: 0 0 5px 0.1rem #f7931a3b !important;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #f7931a;
+    background-color: #f7931a;
+}
+
+.custom-control-input:not(:disabled):active~.custom-control-label::before {
+    color: #fff;
+    background-color: #f7931a36;
+    border-color: #f7931a24;
+}
+
+.btn-block button {
+    width: 100%;
+}
+
+
+.theme-btn {
+    padding: 5px 20px;
+    background: #f7931a;
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #f7931a;
+    font-size: 14px;
+    outline: 0 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.theme-btn:hover {
+    color: #333;
+    box-shadow: 0px 0px 0px 20px inset #ffffff;
+}
+
+.theme-btn2 {
+    padding: 5px 20px;
+    background: transparent;
+    border-radius: 0;
+    color: #333;
+    text-transform: uppercase;
+    border: 1px solid #f7931a;
+    font-size: 14px;
+    outline: 0 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.theme-btn2:hover {
+    box-shadow: 0px 0px 0px 20px inset #f7931a;
+    color: #fff;
+}
+
+.forgot-block a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.forgot-block {
+    padding: 25px 50px;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+span.forgot-effect {
+    font-weight: 500;
+}
+
+
+/*Login page css end*/
+
+
+/*Create post Page*/
+
+.create-post-block {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 0px #ddd;
+}
+
+.create-post-block ul {
+    border: 0;
+}
+
+.create-post-block ul li {
+    margin: 0;
+    width: 200px;
+    text-align: center;
+}
+
+.create-post-block ul li a {
+    padding: 10px 30px;
+    border: 0 !important;
+    border-radius: 0 !important;
+    position: relative;
+    background: #f7931a3b;
+    color: #333;
+}
+
+.create-post-block ul li a.active {
+    background: #f7931a !important;
+    color: #fff !important;
+}
+
+.create-post-block .corner-radius {
+    border-radius: 5px 0px 0px 0px !important;
+}
+
+.create-post-block ul li a i {
+    margin-right: 10px;
+}
+
+.create-post-block .tab-content {
+    padding: 20px;
+}
+
+
+
+.post-btns button {
+    margin-left: 15px;
+}
+
+.post-btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*upload img field css*/
+
+.uploader {
+    display: block;
+    width: 100%;
+}
+
+.uploader label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.uploader label:hover {
+    border-color: #f7931a;
+}
+
+.uploader label.hover {
+    border: 3px solid #454cad;
+    box-shadow: inset 0 0 0 6px #eee;
+}
+
+.uploader label.hover #start i.fa {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.3;
+}
+
+.uploader #start {
+}
+
+#start p {
+    margin: 15px 0px;
+}
+
+.uploader #start.hidden {
+    display: none;
+}
+
+.uploader #start i.fa {
+    font-size: 24px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.uploader #response {
+}
+
+.uploader #response.hidden {
+    display: none;
+}
+
+.uploader #response #messages {
+    margin-bottom: 0.5rem;
+}
+
+.uploader #file-image {
+    display: inline;
+    margin: 0 auto 1.5rem auto;
+    width: auto;
+    height: auto;
+    max-width: 180px;
+}
+
+.uploader #file-image.hidden {
+    display: none;
+}
+
+.uploader #notimage {
+    display: block;
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+.uploader #notimage.hidden {
+    display: none;
+}
+
+.uploader progress,
+.uploader .progress {
+    display: inline;
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 180px;
+    height: 8px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.uploader .progress[value]::-webkit-progress-bar {
+    border-radius: 4px;
+    background-color: #eee;
+}
+
+.uploader .progress[value]::-webkit-progress-value {
+    background: -webkit-gradient(linear, left top, right top, from(#393f90), color-stop(50%, #454cad));
+    background: linear-gradient(to right, #393f90 0%, #454cad 50%);
+    border-radius: 4px;
+}
+
+.uploader .progress[value]::-moz-progress-bar {
+    background: linear-gradient(to right, #393f90 0%, #454cad 50%);
+    border-radius: 4px;
+}
+
+.uploader input[type="file"] {
+    display: none;
+}
+
+.uploader div {
+}
+
+.uploader .btn {
+}
+
+/*Create post Page*/

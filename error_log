@@ -1,0 +1,31 @@
+[20-Aug-2020 15:28:27 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[20-Aug-2020 15:31:05 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[20-Aug-2020 15:32:01 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[20-Aug-2020 15:36:17 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[20-Aug-2020 15:40:01 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[20-Aug-2020 15:41:51 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[20-Aug-2020 15:42:01 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Aug-2020 07:38:03 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Aug-2020 07:38:55 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Aug-2020 07:54:36 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[21-Aug-2020 08:58:43 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Aug-2020 07:19:13 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Aug-2020 10:02:48 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Aug-2020 10:06:24 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Aug-2020 14:34:41 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Aug-2020 14:37:16 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Aug-2020 14:38:52 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Aug-2020 14:53:10 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Aug-2020 16:17:50 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Aug-2020 16:20:44 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[24-Aug-2020 09:45:36 UTC] PHP Parse error:  syntax error, unexpected ''active'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' in /home3/webilecu/public_html/swadeshisetu.in/reddit/app/helpers.php on line 187
+[24-Aug-2020 09:45:42 UTC] PHP Parse error:  syntax error, unexpected ''active'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' in /home3/webilecu/public_html/swadeshisetu.in/reddit/app/helpers.php on line 187
+[24-Aug-2020 09:45:55 UTC] PHP Parse error:  syntax error, unexpected ''active'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' in /home3/webilecu/public_html/swadeshisetu.in/reddit/app/helpers.php on line 187
+[24-Aug-2020 09:46:40 UTC] PHP Parse error:  syntax error, unexpected ''active'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' in /home3/webilecu/public_html/swadeshisetu.in/reddit/app/helpers.php on line 187
+[24-Aug-2020 09:51:22 UTC] PHP Parse error:  syntax error, unexpected ''active'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' in /home3/webilecu/public_html/swadeshisetu.in/reddit/app/helpers.php on line 187
+[24-Aug-2020 09:51:24 UTC] PHP Parse error:  syntax error, unexpected ''active'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' in /home3/webilecu/public_html/swadeshisetu.in/reddit/app/helpers.php on line 187
+[24-Aug-2020 09:51:46 UTC] PHP Parse error:  syntax error, unexpected ''active'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' in /home3/webilecu/public_html/swadeshisetu.in/reddit/app/helpers.php on line 187
+[24-Aug-2020 09:51:47 UTC] PHP Parse error:  syntax error, unexpected ''active'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' in /home3/webilecu/public_html/swadeshisetu.in/reddit/app/helpers.php on line 187
+[24-Aug-2020 09:51:48 UTC] PHP Parse error:  syntax error, unexpected ''active'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' in /home3/webilecu/public_html/swadeshisetu.in/reddit/app/helpers.php on line 187
+[24-Aug-2020 09:52:36 UTC] PHP Parse error:  syntax error, unexpected ''active'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' in /home3/webilecu/public_html/swadeshisetu.in/reddit/app/helpers.php on line 188
+[02-Sep-2020 08:41:41 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home3/webilecu/public_html/swadeshisetu.in/reddit/app/Forums.php on line 4
